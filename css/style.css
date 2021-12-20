@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* MEDIA QUERY MOBILE */
+
+@media only screen and (min-width:300px) and (max-width:770px) {
+
+    body {
+
+        
+        background-color: #0066BA;
+    }
+
+    nav {
+
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .secciones {
+
+        width: 100%;
+        list-style: none;
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    li a {
+        Text-decoration: none;
+        color: white;
+
+    }
+
+
+    .homeCenter {
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        margin: 0px 20px 20px;
+        text-align: center;
+
+
+    }
+
+
+    h1 {
+        font-size: 15px;
+        margin-top: 40px;
+    }
+
+
+    h2 {
+        font-size: 15px;
+    }
+
+    p {
+
+
+        font-size: 15px;
+
+
+
+    }
+
+    .rosa {
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: black;
+        border-radius: 20px;
+        margin: 50px;
+        padding: 15px;
+        color: white;
+        background-color: #FF1056;
+    }
+
+    .blanco {
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: black;
+        border-radius: 20px;
+        padding: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: right;
+        color: black;
+        margin: 5px;
+
+    }
+
+    .footer {
+
+        /* background-color: white;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding-top: 150px;
+        padding-bottom: 160px; */
+        /* seguir acomodando footer */
+
+
+        margin-top: 145px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: flex;
+        font-size: 12px;
+        flex-direction: row;
+
+
+        /* justify-content: center; */
+        background-color: white;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 130%;
+
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (min-width:740px) {
+
+    body {
+
+        
+        background-color: #0066BA;
+
+    }
+
+    nav {
+
+        margin-left: 800px;
+
+    }
+
+    /* SECCIONES */
+
+    .secciones {
+
+        display: inline-block;
+        margin: 20px;
+        list-style: none;
+        display: flex;
+        border-style: 5px;
+        text-decoration-color: white;
+        justify-content: space-between;
+
+    }
+
+    li a {
+
+        Text-decoration: none;
+        color: white;
+
+    }
+
+
+    /* FIN SECCIONES */
+
+    /* INDEX */
+
+    .homeCenter {
+
+        width: 60%;
+        text-align: center;
+
+    }
+
+    .header {
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    h1 {
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 50px;
+        margin: 100px 100px 20px 100px;
+        color: white;
+
+    }
+
+    h2 {
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        margin: 0px 150px 20px 150px;
+        color: white;
+
+    }
+
+    p {
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+        margin: 0px;
+        color: white;
+
+    }
+
+    .rosa {
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: black;
+        border-radius: 20px;
+        margin: 50px;
+        padding: 15px;
+        color: white;
+        background-color: #FF1056;
+    }
+
+    .blanco {
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: black;
+        border-radius: 20px;
+        padding: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: right;
+        color: black;
+        margin: 5px;
+
+    }
+
+    .relojprincipal {
+
+        width: 600px;
+        height: 600px;
+
+    }
+
+    /* FIN INDEX */
+
+    /* FOOT */
+
+    .footer {
+
+        margin-top: 400px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: white;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        width: 100%;
+
+    }
+
+    /* FIN FOOT */
+
+    /* TIENDA */
+
+    .tituloTienda {
+
+        text-align: center;
+    }
+
+
+    .subtituloTienda {
+
+        text-align: center;
+    }
+
+    .textoYRelojTienda {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 60px;
+        color: white;
+    }
+
+    .divRelojTienda {
+        height: 300px;
+        width: 15%;
+        display: inline-block;
+        text-align: center;
+        margin: 60px;
+    }
+
+    .divRelojTienda p {
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        margin: 0px 0px 0px 70px;
+
+    }
+
+
+    .divRelojTienda img {
+        width: 250px;
+        height: 250px;
+    }
+
+
+    .botonRelojTienda {
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: black;
+        border-radius: 20px;
+        margin: 40px 0px 40px 70px;
+        padding: 15px;
+        color: white;
+        background-color: #FF1056;
+
+    }
+
+
+    .footerTienda {
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: white;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    /* FIN TIENDA */
+
+    /* NOSOTROS */
+
+    .divNosotros {
+
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .parrafoNosotros {
+
+        text-align: center;
+        position: relative;
+        margin-top: 70px;
+
+    }
+
+    .nosotros {
+
+        text-align: center;
+        margin-right: 10px;
+
+    }
+
+    .imagenApple {
+
+        width: 250px;
+        height: 250px;
+        margin-left: 80px;
+
+
+    }
+
+    .parrafoNosotros {
+
+        width: 800px;
+        height: 400px;
+        font-size: 25px;
+
+    }
+
+    .footerNosotros {
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: white;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    /* FIN NOSOTROS */
+
+    /* CONTACTO */
+
+    .tituloContacto {
+
+        text-align: center;
+    }
+
+    .parrafoContacto {
+
+        text-align: center;
+        font-size: 20px;
+        margin: 40px;
+
+    }
+
+    .telContacto {
+
+        text-align: center;
+
+    }
+
+    .imagenesContacto {
+
+        display: flex;
+        width: 50px;
+        height: 50px;
+        margin-left: 550px;
+        margin-top: 120px;
+        padding: 40px;
+
+
+    }
+
+    .footerContacto {
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: white;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+    }
+
+    /* FIN CONTACTO */
+
+    /* ACERCA DE */
+
+    .tituloAcercaDe {
+
+        text-align: center;
+    }
+
+    .parrafo1 {
+
+        text-align: center;
+        margin: 50px;
+
+    }
+
+    .parrafo2 {
+
+        text-align: center;
+        margin: 30px;
+    }
+
+    .mapaOficinas {
+
+        margin-left: 470px;
+        padding: 0px 0px 40px;
+
+    }
+
+    .footerAcercaDe {
+
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: white;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+    }
+
+    .ejemplo {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+/* FIN ACERCADE */
