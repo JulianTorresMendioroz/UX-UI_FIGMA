@@ -9,7 +9,7 @@
 
     body {
 
-        background-image: url(../animaciones/ondablancamobile.svg);
+        background-image: url(./animaciones/ondablancamobile.svg);
         background-size: cover;
         background-position: bottom;
         padding-bottom: 140px;
@@ -135,7 +135,7 @@
 
     body {
 
-        background-image: url(../animaciones/ondablanca.svg);
+        background-image: url(./animaciones/ondablanca.svg);
         background-size: cover;
         background-position: bottom;
         background-color: #0066BA;
