@@ -9,7 +9,10 @@
 
     body {
 
-        
+        background-image: url(../animaciones/ondablancamobile.svg);
+        background-size: cover;
+        background-position: bottom;
+        padding-bottom: 140px;
         background-color: #0066BA;
     }
 
@@ -132,7 +135,9 @@
 
     body {
 
-        
+        background-image: url(../animaciones/ondablanca.svg);
+        background-size: cover;
+        background-position: bottom;
         background-color: #0066BA;
 
     }
